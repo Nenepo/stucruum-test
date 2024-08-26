@@ -18,12 +18,27 @@ export default {
         lg: '16px'
       },
       fontWeight: {
-        thin: '300' ,
+        thin: '300',
         normal: '400',
         medium: '500'
-      }
+      },
+      keyframes: {
+        slidein: {
+          '0%': { right: '-60%' },
+          '100%': { right: '0%' },
+        },
+        slideout: {
+          '0%': { right: '0%' },
+          '100%': { right: '-60%' },
+        },
+      },
+      animation: {
+        slidein: 'slidein 0.6s ease-in-out forwards',
+        slideout: 'slideout 0.6s ease-in-out forwards',
+      },
     },
   },
+
   plugins: [],
 }
 
