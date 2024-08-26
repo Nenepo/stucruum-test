@@ -8,4 +8,4 @@ npm run dev
 http://localhost:5173
 
 # the second page
-http://localhost:5173/atm-creativity
+http://localhost:5173/atm
