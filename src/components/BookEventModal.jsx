@@ -102,4 +102,4 @@ function BookEventModal() {
   )
 }
 
-export default BookEventModal
+export default BookEventModal;
