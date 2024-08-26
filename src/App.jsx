@@ -9,7 +9,7 @@ function App() {
       <Routes>
 
         <Route path="/" element={<Booking />} />
-        <Route path="/atm-creativity" element={<ATMCreativity />} />
+        <Route path="/home" element={<ATMCreativity />} />
       </Routes>
     </Router>
   );
