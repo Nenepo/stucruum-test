@@ -10,4 +10,4 @@ function FormInput({ label, htmlFor, ...props }) {
   
 }
 
-export default FormInput
+export default FormInput;

@@ -7,4 +7,4 @@ function ModalHeader({text, handleClose, className }) {
 </div>
 }
 
-export default ModalHeader
+export default ModalHeader;
