@@ -9,15 +9,21 @@ export default {
       colors: {
         grey: '#939396',
         lightGrey: '#f8f8f8',
-        borderGrey: '#f2f2f2',
-        black: '#26272d'
+        borderGrey: '#E0E0E0',
+        black: '#26272d', 
+        textGrey: '#A5A5A5',
+        textDark: '#26272D',
+        inputBorder: '#F0F0F0',
+        btnBg: ' #26272D',
       },
       fontSize: {
         sm: '12px',
         md: '14px',
-        lg: '16px'
+        lg: '16px',
+        xl: '18px'
       },
       fontWeight: {
+        thinner: '200',
         thin: '300',
         normal: '400',
         medium: '500'

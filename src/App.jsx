@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Booking from './pages/Booking';
 import ATMCreativity from './pages/ATMCreativity';
+import BookEventModal from './components/BookEventModal';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Routes>
 
-        <Route path="/" element={<Booking />} />
+        <Route path="/" element={<BookEventModal />} />
         <Route path="/atm" element={<ATMCreativity />} />
       </Routes>
     </Router>
