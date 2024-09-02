@@ -25,15 +25,18 @@ body {
   
 }
 
+.ii{
+  border: 1px dotted brown  !important;
+}
 
 /* booking-modal */
 
-.booking-modal {
+/* .booking-modal {
 
   max-width: 620px;
   max-height: 790px;
-}
-
+} */
+/* 
 .booking-modal[open] {
   animation: slide-in-from-top 0.5s ease-out;
 }
@@ -55,7 +58,7 @@ body {
     transform: translateY(0);
     opacity: 1;
   }
-}
+} */
 
 /* contact-modal */
 /* .contact-modal {

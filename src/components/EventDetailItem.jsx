@@ -7,9 +7,9 @@ function EventDetailItem({ text, icon, alt, highlight, index }) {
   const afterText = splitText[1] ? ` (Twitter) ${splitText[1]}` : "";
 
   return (
-    <span className='flex items-center text-md my-2' key={index}>
-      <img src={icon} alt={alt} className="mr-2 w-4 h-4" />
-      <span>
+    <span className='flex items-center my-2 ' key={index}>
+      <img src={icon} alt={alt} className="mr-2 w-[15px] h-[15px]" />
+      <span className="w-[114px] h-[26px] font-normal text-md  leading-[26px]">
         {beforeText}
         <span className={highlightColor}>
           {' '}
