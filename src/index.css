@@ -15,6 +15,8 @@
 
 *{
   box-sizing: border-box;
+  padding: 0;
+  scroll-behavior: smooth !important;
 }
 body {
   font-family: "Kanit", sans-serif;
@@ -24,47 +26,15 @@ body {
 
   
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 
 .ii{
   border: 1px dotted brown  !important;
 }
+/* hide scrollbar for chrome, safari and opera */
 
-/* booking-modal */
-
-/* .booking-modal {
-
-  max-width: 620px;
-  max-height: 790px;
-} */
-/* 
-.booking-modal[open] {
-  animation: slide-in-from-top 0.5s ease-out;
-}
-
-
-.booking-modal::backdrop {
-  background: #939396;
-}
-
-
-
-
-@keyframes slide-in-from-top {
-  0% {
-    transform: translateY(-15%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
-
-/* contact-modal */
-/* .contact-modal {
-  transform: translateX(1000%);
-  transition: transform 0.3s ease-in-out;
-} */
 
 .contact-modal[open] {
   animation: slidein 0.8s ease-in-out forwards;
