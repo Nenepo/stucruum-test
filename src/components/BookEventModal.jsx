@@ -44,12 +44,12 @@ function BookEventModal() {
     <>
       {isModalOpen && (
         <div
-          className=" inset-0 z-50 flex items-center justify-center w-full  h-[150vh] bg-grey/40"
+          className=" inset-0 z-50 flex items-center justify-center w-full h-auto  bg-grey/40"
           ref={modalRef}
         >
-          <div className="bg-lightGrey rounded-lg w-[686px] h-[800px] ">
+          <div className="bg-lightGrey rounded-lg  ">
             <ModalHeader text="Event registration" handleClose={handleClose} />
-            <div className='flex m-8 gap-12 items-start w-[622px] h-[666px] '>
+            <div className='flex m-8 gap-12 items-start  '>
               <div className='w-[251px] h-[338px] gap-5'>
                 <div className='gap-1 w-[228px] h-auto'>
                   <p className='text-textGrey text-sm font-thin w-[110px] h-[20px]'>PHOTORUUM EVENT</p>
