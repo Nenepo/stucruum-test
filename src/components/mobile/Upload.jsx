@@ -82,7 +82,7 @@ function Upload() {
 
       <div className=" h-[320px] rounded-2xl mt-[24px] bg-white dark:bg-[#000] w-full p-4 flex flex-col">
         <h4 className="font-normal text-[20px] tracking-tight text-[#000] dark:text-white">Recent uploads</h4>
-        <p className="font-thinner  text-[14px] leading-[16px] tracking-tight text-center text-[#808080] dark:text-[#A5A5A5]  flex items-center mx-auto mt-[118px]"><span><img src={infoCircle} alt="info-circle" className="mr-2  w-[18px] h-[18px]" /></span>All submissions will appear here</p>
+        <p className="font-thinner font-kanit text-[14px] leading-[16px] tracking-tight text-center text-[#808080] dark:text-[#A5A5A5]  flex items-center mx-auto mt-[118px]"><span><img src={infoCircle} alt="info-circle" className="mr-2  w-[18px] h-[18px]" /></span>All submissions will appear here</p>
 
       </div>
 
@@ -99,4 +99,4 @@ function Upload() {
   )
 }
 
-export default Upload
+export default Upload;
