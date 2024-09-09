@@ -12,7 +12,7 @@ function ATMCreativity() {
   };
 
   return (
-    <section className='relative inset-0 z-50 flex items-center justify-center w-full  h-screen px-[3%] bg-white'>
+    <section className='relative inset-0 z-50 flex items-center justify-center w-[100vw]  h-screen px-[3%] bg-white'>
       {/* Cancel Icon */}
       <div className='absolute flex items-center justify-end w-full px-3 pb-2 top-2'>
         <button type='button' className='transitiom duration-300 border-0 outline-none text-neutral-500 hover:text-black'>
