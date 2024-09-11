@@ -98,8 +98,10 @@ function Upload() {
       </div>
 
 
+     
+
     </section>)
   )
 }
 
-export default Upload
+export default Upload;
