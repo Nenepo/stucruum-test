@@ -15,8 +15,8 @@ function MobileHeader({ isDarkMode }) {
           STUCRUUM
         </h4>
       </div>
-      <nav className="w-[24px] h-[8px] flex flex-col justify-between cursor-pointer">
-        <div className={`w-full h-[2px] ${isDarkMode ? 'bg-white' : 'bg-black'}`}></div>
+      <nav className="w-[24px] h-[10px] flex flex-col justify-between cursor-pointer ">
+        <div className={`w-full h-[2.5px] ${isDarkMode ? 'bg-white' : 'bg-black'}`}></div>
         <div className={`w-full h-[2.5px] ${isDarkMode ? 'bg-white' : 'bg-black'}`}></div>
       </nav>
 
