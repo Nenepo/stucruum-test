@@ -33,10 +33,10 @@ function ATMCreativity() {
         </div>
 
         <div className='flex justify-center space-x-2  py-3 pb-6  items-center  w-full overflow-hidden mt-[17px] mx-auto md:w-fit  md:gap-2  md:mt-6   md:flex-row'>
-          <span className=' border  border-borderGrey rounded-lg px-8  py-[13px] gap-[8px] text-lg leading-[23px] font-medium text-nowrap'>
+          <span className=' border  border-borderGrey rounded-lg px-8  h-[42px] flex items-center justify-center gap-[8px] text-lg leading-[23px] font-medium text-nowrap'>
             <span className='font-normal'>by</span> ATM Creativity • May 2023
           </span>
-          <button className=' bg-btnBg mr-4  py-2 px-7 rounded-[100px] text-md gap-[8px]  transition-opacity duration-300 hover:opacity-80' onClick={openModal}>
+          <button className='h-[42px] bg-btnBg mr-4   px-7 rounded-[100px] text-md gap-[8px]  transition-opacity duration-300 hover:opacity-80' onClick={openModal}>
             <span className='text-white text-nowrap font-normal text-lg leading-[23px]'>Talk to ATM Creativity</span>
           </button>
         </div>

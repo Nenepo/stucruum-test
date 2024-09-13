@@ -49,14 +49,14 @@ function BookEventModal() {
     <>
       {isModalOpen && (
         <div
-          className=" inset-0 z-50 flex items-center justify-center w-full h-full bg-grey/40"
+          className=" inset-0 z-50 flex items-center justify-center w-full min-h-[100vh] bg-grey/40"
           ref={modalRef}
         >
           <div className="bg-lightGrey rounded-lg  ">
             <ModalHeader text="Event registration" handleClose={handleClose} />
             <div className='flex m-8 gap-12 items-start  justify-center'>
-              <div className='w-[251px]  gap-5'>
-                <div className='gap-1 w-[228px] h-auto'>
+              <div className='  gap-5'>
+                <div className='gap-1 h-auto'>
                   <p className='text-textGrey text-sm font-thin w-[110px] h-[20px]'>PHOTORUUM EVENT</p>
                   <h4 className='w-[228px] h-[60px] uppercase text-lg font-medium leading-5 tracking-tight'>
                     How Building Your Personal Brand Can Boost Your Photography Business
@@ -82,7 +82,7 @@ function BookEventModal() {
                   </span>
                 </div>
               </div>
-              <form onSubmit={handleSubmit} className=' w-[323px]  space-y-5'>
+              <form onSubmit={handleSubmit} className='space-y-5'>
                 {formFields.map((field) => (
                   <FormInput
                     key={field.name}
