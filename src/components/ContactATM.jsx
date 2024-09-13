@@ -70,7 +70,7 @@ const ContactATM = forwardRef(function ContactATM({ }, ref) {
       <div >
         <div
           ref={modalRef}
-          className={`absolute right-0 top-0 md:w-[656px] w-full  bg-white shadow-lg overflow-y-auto border-none transition-transform duration-300 ease-in-out z-50 ${isClosing ? 'animate-slideout' : 'animate-slidein'}`}
+          className={`absolute right-0 top-0 md:w-[656px] w-full h-screen  bg-white shadow-lg overflow-y-auto border-none transition-transform duration-300 ease-in-out z-50 ${isClosing ? 'animate-slideout' : 'animate-slidein'}`}
           style={{ display: "none", scrollbarWidth: "none" }}
         >
           <ModalHeader text="Contact ATM Creativity" handleClose={handleClose} className="pt-8 pb-[29px]" marginLeft=" ml-[20px] md:pl-5" marginRight="mr-[20px] md:pr-5" fontSize="text-xl md:text-2xl" fontWeight="font-thin" />
