@@ -69,3 +69,32 @@ body::-webkit-scrollbar{
     right: -60%
   }
 }
+
+.progress-bar{
+  appearance: none;
+  border-radius: 8px; 
+  /* overflow: hidden;  */
+
+}
+
+.progress-bar::-webkit-progress-bar{
+  background-color: #DDDDDD;
+  height: 4px;
+  border-radius: 8px;
+}
+.progress-bar::-moz-progress-bar {
+  background-color: #DDDDDD;
+  height: 4px;
+  border-radius: 8px;
+}
+.progress-bar::-webkit-progress-value{
+  background-color: #000;
+  border-radius: 8px;
+
+}
+.dark .progress-bar::-webkit-progress-bar{
+  background-color: #1A1A1A;
+}
+.dark .progress-bar::-webkit-progress-value {
+  background-color: #ffffff; /* Dark mode indicator color */
+}

@@ -4,6 +4,7 @@ import ContentDash from "./ContentDash";
 import SubmitPhotos from "./SubmitPhotos";
 import Submissions from "./Submissions";
 import Footer from "./Footer";
+import UploadPhotoContextProvider from "../../store/Upload-Photo-Context";
 
 function Upload() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -36,12 +37,15 @@ function Upload() {
 
   return (
     isMobile && (
+
       <section className="bg-[#EFEFEF] dark:bg-[#161616] min-h-screen flex flex-col transition-colors">
         <MobileHeader isDarkMode={isDarkMode} />
         <div className="px-4 flex-grow">
-          <ContentDash isDarkMode={isDarkMode} />
-          <SubmitPhotos isDarkMode={isDarkMode} />
-          <Submissions />
+          <UploadPhotoContextProvider>
+            <ContentDash isDarkMode={isDarkMode} />
+            <SubmitPhotos isDarkMode={isDarkMode} />
+            <Submissions isDarkMode={isDarkMode}/>
+          </UploadPhotoContextProvider>
         </div>
         <Footer isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       </section>
