@@ -4,6 +4,9 @@ npm install
 ## dev
 npm run dev
 
+## vercel build
+npm run build
+
 ### The First Test
 # The first Page
 http://localhost:5173
