@@ -17,6 +17,9 @@ export default {
         inputBorder: '#F0F0F0',
         btnBg: ' #26272D',
       },
+      fontFamily: {
+        kanit: ["Kanit", "sans-serif"],
+      },
       fontSize: {
         sm: '12px',
         md: '14px',
