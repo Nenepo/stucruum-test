@@ -4,7 +4,7 @@ import ContentDash from "./ContentDash";
 import SubmitPhotos from "./SubmitPhotos";
 import Submissions from "./Submissions";
 import Footer from "./Footer";
-import UploadPhotoContextProvider from "../../store/Upload-Photo-Context";
+import UploadPhotoContextProvider from "../../store/upload-photo-context";
 
 function Upload() {
   const [isDarkMode, setIsDarkMode] = useState(false);

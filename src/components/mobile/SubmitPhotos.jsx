@@ -4,7 +4,7 @@ import lightUploadIcon from "/light-upload-icon.svg";
 import darkUploadIcon from "/dark-upload-icon.svg";
 
 
-import { UploadContext } from "../../store/Upload-Photo-Context";
+import { UploadContext } from "../../store/upload-photo-context";
 import SubmitPhotosHeader from "./SubmitPhotosHeader";
 
 
